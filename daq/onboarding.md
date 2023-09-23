@@ -14,7 +14,8 @@
 ## Electrical
 - KiCad: [link](https://www.kicad.org/download/)
     - We use KiCad to design schematics and printed circuit boards.
-    - Tutorial: [link](https://docs.kicad.org/7.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+    - Tutorial should go over how to use KiCad: [link](https://docs.kicad.org/7.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+    - Some overlap with the tutorial above, but goes into much more detail especially for design process and best practices: [YouTube link](https://www.youtube.com/watch?v=aVUqaB0IMh4&ab_channel=Phil%E2%80%99sLab)
 - Git
 ## Mechanical
 - SOLIDWORKS (follow instruction in Drive)
