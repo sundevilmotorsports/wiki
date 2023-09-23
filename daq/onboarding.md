@@ -30,6 +30,8 @@
 - Python 3
     - Windows: Search in Microsoft Store
     - Mac/Linux: likely already installed; confirm by running `python3` or `python`
+- PyQt
+    - we use PyQt for the majority of our GUI projects. [tutorial](https://build-system.fman.io/pyqt5-tutorial)
 - STM32CubeProg: [link](https://www.st.com/en/development-tools/stm32cubeprog.html)
     - used to download programs via the DFU bootloader
 - STM32CubeIDE: [link](https://www.st.com/en/development-tools/stm32cubeide.html#get-software)
