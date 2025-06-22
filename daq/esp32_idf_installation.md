@@ -15,11 +15,11 @@ Enter the cloned directory: `cd esp-idf`
 
 ### Run the install script: 
 - windows: `install.bat`
-- linux/mac: `install.sh`
+- linux/mac: `./install.sh`
 
 ### Run the export script (add to PATH)
 - windows: `export.bat`
-- linux/mac: `export.sh`
+- linux/mac: `./export.sh`
 
 ### Create projects directory
 You can call it whatever you like but this is what I did
@@ -89,7 +89,17 @@ You have a working blink code for esp32!🚀🚀🚀
 
 If you want to use the vscode extension to code your esp32. Install the extension and when you enter the setup wizard, make sure you install from existing version. The main ESP-IDF PATH for me was `C:\Users\ryans\esp-idf` and the TOOLS PATH was `C:\Users\ryans\.espressif`
 
+Use the existing setup option:
+![picture of initial setup window](image.png)
+
+Choose the correct PATH for your existing installation. For me the TOOLS_PATH was not the tools folder within /esp-idf/, make sure you check where the actual TOOLS_PATH should be.
+![choose path for directories window](select-esp-idf.png)
+
+Link for extension:
+
+https://marketplace.visualstudio.com/items?itemName=espressif.esp-idf-extension
+
 
 
 ## Errors from C/C++ Extension
-Make you you go to the command palette. On windows, its ctrl + shift + p and type `ESP-IDF Add .vscode Configuration Folder`. This fixed the errors for me and should fix them for you as well.
+Make you you go to the command palette. On windows, its ctrl + shift + p and type `ESP-IDF Add .vscode Configuration Folder`. This will create a .vscode folder with jsons to link your compiler to the build libraries needed to fix the errors you may be getting. This fixed the errors for me and should fix them for you as well.
